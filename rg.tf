@@ -3,6 +3,8 @@ resource "azurerm_resource_group" "rg" {
   location = "central india"
   tags = { 
     owner = devteam
+  tags = {
+    department = it
     }
   }
 
